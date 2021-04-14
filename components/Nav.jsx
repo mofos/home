@@ -23,13 +23,13 @@ const Nav = () => {
       <h1>WAP</h1>
       <button className={styles.menu}onClick={openNav}>=</button>
       <div id="mySidenav" className={styles.sidenav}>
-        <button className="closebtn" onClick={closeNav}>
+        <button className={styles.closebtn} onClick={closeNav} >
           &times;
         </button>
         <a href="/">Home</a>
         <a href="/attack">Attack</a>
-        <a href="/">Clients</a>
-        <a href="/">Contact</a>
+        <a href="/">LinuxOnline</a>
+        <a href="/about">About us</a>
       </div>
     </div>
     

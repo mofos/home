@@ -4,6 +4,8 @@
     background-color: black;
     display: flex;
     justify-content: space-between;
+    
+    
   }
 .Nav h1{
   color: aliceblue;
@@ -26,7 +28,8 @@
    border-color: #000000;
    box-sizing: border-box;
    right: 0%;
-   font-size: 30px; 
+   font-size: 300%; 
+   
 
   }
   
@@ -38,10 +41,12 @@
     right: 0;
     top: 0;
   margin-Right: 0px ;
-    background-color: #111;
+    background-color: rgba(17, 17, 17, 0.87);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
+   
+    
   }
   
   .sidenav a {

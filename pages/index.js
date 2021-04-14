@@ -5,10 +5,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>WAP</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className={styles.bg}>
+      <div  className={styles.bg} ></div>
+      <div className={styles.bg1}>
       <main className={styles.main}>
         
         <h1 className={styles.title}>
@@ -50,16 +51,17 @@ export default function Home() {
           </a>
         </div>
         
-              <div className={styles.hero}>
+        <div className={styles.hero}>
         <div className = {styles.blackop} >.
-        <h1>PenT3$T IOS</h1>;
+        <h1>Made with Next.JS</h1>;
         </div>
       </div>
       
       <div className={styles.writeup}>
         <div> <img src="https://64.media.tumblr.com/ebf74887520abe1b1fbed76f463af135/tumblr_pf527mw5Nx1vxnjybo1_1280.gifv" alt=" bg"/></div>
-
+        <h1 className={styles.head}>Why Do This?</h1>
         <div className={styles.para}>
+          
           <p>Become invaluable in our tech-driven world. Meet the global demand for problem-solvers with strong technical foundations and the agility to keep learning. So are you Ready?</p>
         </div>
 
@@ -70,7 +72,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href=""
           target="_blank"
           rel="noopener noreferrer"
         >

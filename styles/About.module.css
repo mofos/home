@@ -76,4 +76,22 @@ text-align: center;  }
       height: 1200px;
       background-image: linear-gradient(to right, rgb(0, 17, 53) , rgb(0, 50, 158));
   }
+
+  .card {
+    width: 230px;
+  }
+.column {
+    
+   float: 0;
+   display: block;
+    width: 100%;
+    margin-bottom: 0px;
+    margin-left: 3%;
+    padding: 0px;
+    max-width: 400px;
+    
+    
+    
+  }
+
   }

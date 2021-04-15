@@ -436,13 +436,13 @@ font-family: 'Fira Code', monospace;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .grid {
     width: 100%;
     flex-direction: column;
   }
   .card{
-    width: 400px;
+    width: 200px;
   }
   .writeup{
     display: grid;

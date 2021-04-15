@@ -11,7 +11,7 @@ export class about extends Component {
                
                     <div className={styles.column}>
                     <div className={styles.card}>
-                    <div className={styles.img}><img src="../img/IVBFsDO.jpg" alt="upna londa"/></div>
+                    <div className={styles.img}><img src="../img/12.jpg" alt="upna londa"/></div>
                     <div className={styles.container}>
                         <h2>Isaac John</h2>
                         <p>"Ni naman"</p>
